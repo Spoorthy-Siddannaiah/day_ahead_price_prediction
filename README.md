@@ -1,6 +1,6 @@
 # Day-Ahead Electricity Price Prediction
 
-Forecasting **day-ahead hourly electricity prices** using machine learning and LSTM deep learning.  
+Forecasting **day-ahead hourly electricity prices** using machine learning and deep learning.  
 Includes robust **EDA**, **feature engineering**, **time-based splits**, and **full evaluation** on realistic holdout years.
 
 ---
@@ -33,7 +33,7 @@ This project forecasts **day-ahead electricity prices** for hourly markets using
 
 ## EDA & Feature Engineering
 - Statistical exploration, seasonality plots, and autocorrelation analysis  
-- Created **lagged features** (e.g., `price_lag24`, `price_lag168`)  
+- Created **lagged features** 
 - Rolling window features (mean, std) for prices and net load  
 - Calendar features: holidays, weekends  
 - **NaN handling:** All missing values removed to ensure clean model input  
